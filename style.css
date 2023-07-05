@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+.logo{
+    background-size: cover;
+    background-image: url("amazon_logo.png");
+    height: 100%;
+    width: 100%;
+}
+.nav-logo{
+    margin-top: 2px;
+    height: 50px;
+    width: 110px;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.border1{
+    border: 1px solid transparent;
+}
+.border1:hover{
+    border: 1px solid orange;
+    cursor: pointer;
+}
+.deliver{
+    font-size: 0.11px;
+    color: #ccc;
+    margin-left: 17px;
+    margin-top: 10px;
+}
+.country{
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+.add-icon{
+    display: flex;
+}
+.nav-address{
+    margin-top: 1px;
+    align-items: center;
+    height: 50px;
+    width: 90px;
+}
+.nav-search{
+    display: flex;
+    align-items: center;
+}
+.search-icon{
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    background-color: orange;
+   border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 45px;
+    height: 40px;
+    color: #131921;
+    justify-content: center;
+
+}
+.nav-input{
+    width: 840px;
+    height: 35px;
+
+}
+.nav-option{
+    height: 40px;
+    width: 50px;
+    background-color: #efefef;
+    font-size: 11px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    text-align: center;
+    border: none;
+}
+span{
+    font-size: 12px;
+}
+.nav-bottom{
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav-cart{
+    display: flex;
+    font-size: large;
+}
+.cartext{
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.nav-lang{
+    height:30px;
+    width: 60px;
+   display: flex;
+}
+.lan{
+    font-size: 11px;
+    font-weight: bold;
+    text-align: right;
+}
+img{
+    width: 50%;
+    height: 70%;
+}
+.panel{
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    color: white;
+    font-size: 14px;
+}
+.options{
+    display: flex;
+   height: 20px;
+   padding: 10px;
+}
+.all{
+    padding: 12px;
+}
+.marg1{
+    margin-left: 14px;
+}
+.mainbg{
+    height: 1600px;
+    width: 100%;
+    background-color: #e3e6e6;
+   
+    
+}
+.mainad{
+   
+    margin-left: 40px;
+    height: 600px;
+    width: 1500px;
+    background-image: url("img2.jpg"); 
+    background-size: cover;
+    display: flex ;
+    justify-content: center;
+    align-items: center ;
+   
+    
+
+}
+.mainmsg{
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 1450px;
+    font-size: 14px;
+    font-weight: bold;
+   text-align: center;
+   margin-top: 200px;
+   padding-top: 10px;
+   cursor: default;
+   
+}
+.mainmsg a{
+    color: #007185;
+    text-decoration:none ;
+}
+.contents{
+    
+    height: 400px;
+    width: 1450px;
+    float: left;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px;
+
+    
+}
+.p-box{
+ 
+   
+    width: 350px;
+    height:420px;
+    background-color: white;
+    float: left;
+}
+.imagd1{
+    background-image: url("pro_1.png");
+    background-size: cover;
+}
+.imgd2{
+    background-image: url("pro_2.png");
+    background-size: cover;
+}
+.imgd3{
+    background-image: url("pro_3.png");
+    background-size: cover;
+}
+.imgd4{
+    background-image: url("pic4.png");
+    background-size: cover;
+}
+.imgd5{
+    background-image: url("pic5.png");
+    background-size: cover;
+}
+.imgd6{
+    background-image: url("pic6.png");
+    background-size: cover;
+}
+.imgd7{
+    background-image: url("pic7.png");
+    background-size: cover;
+}
+.signinbox{
+    font-size: 21px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 25px;
+    height: 125px;
+    width: 350px;
+    background-color: white;
+
+}
+.p-box1{
+    width: 350px;
+    height:420px;
+    background-color: transparent;
+    float: left;
+    align-items: center;
+}
+.sibutton{
+    background-color: orange;
+    height: 30px;
+    width: 308px;
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    border-radius: 7px;
+}
+.packing{
+    background-image: url(brownbox.jpg);
+    background-size: cover;
+    height: 250px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.spc{
+    margin-top: 100px;
+}
+.bottomsignin{
+    height: 126px;
+    width: 100%;
+    border-top: black 0.6px solid;
+    border-bottom: black 0.5px solid;
+    
+}
+.sbutton{
+    background-color: orange;
+    height: 30px;
+    width: 308px;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 12px;
+}
+.recomend{
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+.sinin{
+    text-align: center;
+    font-size: 13px;
+}
+.sinin a{
+    color: #007185;
+    text-decoration:none ;
+}
+.nav-footer{
+    width: 100%;
+    height: 350px;
+    background-color: #232f3e;
+}
+.backtotop{
+    text-align: center;
+    height: 40px;
+   background-color: #4f6275;
+}
+.backtotop a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.panal2{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.panal2 a{
+    text-decoration: none;
+    color: #dddd;
+    margin-top: 10px;
+    font-size: 14px;
+}
+ul a{
+    display: block;
+}
+ul a:hover{
+    text-decoration: underline;
+}
+.panal3{
+    padding-top: 20px;
+    height: 68px;
+    width: 100%;
+    
+    border-top: 1px solid white;
+    display: flex;
+    float: left;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+.logo-bottom{
+    background-image: url("amazon.png");
+    background-size: cover;
+    height: 50px;
+    width: 80px;
+
+}
+.bot-box{
+    border: white solid 1px;
+    color: #dddd;
+    height: 33px;
+    width: 116px;
+    text-align: center;
+    padding-top: 10px;
+}
+.privacy-bot{
+    font-size: 12px;
+    text-align: center;
+    height: 29px;
+    background-color:#131921 ;
+    margin-top: 80px;
+    
+}
+.privacy-bot a{
+    text-decoration: none;
+    color: #dddd;
+    margin-left: 20px;
+}
+.copyright{
+    font-size: 12px;
+    text-align: center;
+    color: #dddd;
+    background-color: #131921;
+    
+}
