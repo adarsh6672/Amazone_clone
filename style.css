@@ -13,11 +13,11 @@
 
     
 }
-.logo{
-    background-size: cover;
-    background-image: url("amazon_logo.png");
-    height: 100%;
-    width: 100%;
+.logo img{
+    
+    height: 60px;
+    width: 110px;
+    
 }
 .nav-logo{
     margin-top: 2px;
